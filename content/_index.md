@@ -14,7 +14,7 @@ As SRE and Release Manager, my last position involved collaborating with cross-f
 
 # Areas of Expertise
 
-* AWS | Azure | GCP
+* Azure | AWS | GCP
 * Kubernetes | Containers
 * Infrastructure-as-Code | Pulumi
 * GitHub Actions | Jenkins | Groovy
