@@ -28,7 +28,7 @@ As SRE and Release Manager, my last position involved collaborating with cross-f
 
 # Professional Experience
 
-#### > Microsoft (contract via Insight Global)
+#### > Microsoft
 ##### Technical Support Engineer
 03/2024 - present
 + As a key member of the Rapid Response team, I manage high-profile incidents, resolving complex Kubernetes and container-related issues on Azure while maintaining strict SLA compliance.
