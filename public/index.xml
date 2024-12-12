@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Kevin (Min) Sohn</title>
+    <link>https://minresu.me/</link>
+    <description>Recent content in About on Kevin (Min) Sohn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://minresu.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://minresu.me/tpm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://minresu.me/tpm/</guid>
+      <description>codenism@gmail.com + 425-200-4565
+About Me My name is Kevin Sohn. My friends call me Min.
+Wearing a both SRE and Release Manager title, my position was to be a collaborator within cross-functional teams. I was excited to be the point-of-contact to take the projects from zero to 1, initializing different projects such as CI/CD pipeline, cloud infrastructures, containerization and infrastructure-as-code approach.
+Areas of Expertise Kubernetes | Containers Infrastructure-as-Code | Pulumi GitHub Actions | Jenkins | Groovy Jira | Confluence | KPI management AWS | GCP | OCI QA Automation | Selenium | Robot Framework Postman | Newman Audio Signal Processing (DSP) Post Processing and Audio Editing Korean | English fluent Professional Experience &amp;gt; Center ID Site Reliability Engineer | Release Manager 2020.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://minresu.me/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://minresu.me/contact/</guid>
+      <description> Email: email link Phone: phone link Social GitHub Portfolio LinkedIn </description>
+    </item>
+    
+  </channel>
+</rss>
