@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Resume - Kevin (Min) Sohn"
 +++
 codenism@gmail.com
 
