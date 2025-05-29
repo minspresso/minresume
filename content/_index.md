@@ -10,7 +10,7 @@ codenism@gmail.com
 
 My name is Kevin Sohn. My friends call me Min.
 
-As SRE and Release Manager, my last position involved collaborating with cross-functional teams. I was excited to serve as the point of contact for taking projects from zero to one, building and managing processes such as CI/CD pipelines, cloud infrastructure, containerization, and infrastructure-as-code. The smartphone projects I led as a QA Lead and Audio Test Engineer at Samsung were used by millions of users every day. I currently handle high-profile cases to resolve issues with Kubernetes and containers on Azure.
+As an experienced Enterprise Technical Support Engineer, SRE, Release Manager, and QA Lead, I have worked across diverse environments—from fast-paced startups to large-scale enterprises. In my recent roles, I’ve specialized in resolving complex technical issues for major cloud customers, ensuring reliability and performance at scale. In earlier startup environments, I built CI/CD pipelines, implemented cloud infrastructure, and led containerization efforts from the ground up. At Samsung, I led smartphone QA and audio testing initiatives that reached millions of users daily. I’m passionate about contributing to technologies that operate at planet-scale.
 
 # Areas of Expertise
 
