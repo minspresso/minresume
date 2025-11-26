@@ -16,7 +16,7 @@ As an experienced Enterprise Technical Support Engineer, SRE, Release Manager, a
 
 * Azure | AWS | GCP
 * Kubernetes | Containers
-* Infrastructure-as-Code | Pulumi
+* Infrastructure-as-Code | Terraform | Pulumi
 * GitHub Actions | Jenkins | Groovy
 * Agile | Jira | Confluence | KPI management
 * Scripting | API Testing | Postman | Newman
