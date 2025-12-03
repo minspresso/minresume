@@ -37,7 +37,7 @@ As an experienced Enterprise Technical Support Engineer, SRE, Release Manager, a
   
 ---
 
-#### > Center ID
+#### > Center ID (Acquired by American Express)
 ##### Site Reliability Engineer | Release Manager
 01/2020- 11/2023 
 + Coordinated comprehensive release management, including daily triage, rapid incident response, critical hotfix deployment, and strategic risk mitigation in collaboration with key stakeholders.
@@ -48,7 +48,7 @@ As an experienced Enterprise Technical Support Engineer, SRE, Release Manager, a
   
 ---
 
-#### > Center ID
+#### > Center ID (Acquired by American Express)
 ##### QA Lead
 12/2016 - 12/2019 
 + Established and defined QA processes and strategies for a fintech SaaS within a full-stack, agile-driven development cycle.
