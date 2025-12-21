@@ -54,7 +54,7 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: your-firebase-project-id # <-- REPLACE WITH YOUR ACTUAL PROJECT ID
+          projectId: minresu-me # <-- REPLACE WITH YOUR ACTUAL PROJECT ID
           channelId: live
 
   close_pull_request_job:
