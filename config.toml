@@ -6,7 +6,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   [params.footer]
-    text = "Powered by Hugo + Azure Static Web Apps + GitHub Actions + Azure Traffic Manager with three endpoints: Two from Microsoft Azure and one from Google Firebase."
+    text = "Powered by Hugo + Azure Static Web Apps + GitHub Actions + Azure Traffic Manager with two regions."
     url = "https://minresu.me"
 
 [menu]
