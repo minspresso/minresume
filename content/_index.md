@@ -8,22 +8,21 @@ codenism@gmail.com
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-My name is Kevin Sohn. My friends call me Min.
-
-As an experienced Enterprise Technical Support Engineer, SRE, Release Manager, and QA Lead, I have worked across diverse environments—from fast-paced startups to large-scale enterprises. In my recent roles, I’ve specialized in resolving complex technical issues for major cloud customers, ensuring reliability and performance at scale. In earlier startup environments, I built CI/CD pipelines, implemented cloud infrastructure, and led containerization efforts from the ground up. At Samsung, I led smartphone QA and audio testing initiatives that reached millions of users daily. I’m passionate about contributing to technologies that operate at planet-scale.
+Technical leader with over 10 years of experience across the software development lifecycle, specializing in Release Management, SRE, and QA Leadership. I have a proven track record of orchestrating complex technical workflows, from managing global product launches at Samsung to resolving high-profile enterprise cloud incidents at Microsoft. By combining deep technical expertise in Azure/AWS with a focus on stakeholder communication and risk mitigation, I bridge the gap between engineering execution and business goals. I am now seeking to leverage my background in operational excellence and cross-functional coordination into a Technical Project Management role within the cloud space.
 
 # Areas of Expertise
 
-* Azure | AWS | GCP
-* Kubernetes | Containers
-* Infrastructure-as-Code | Terraform | Pulumi
-* GitHub Actions | Jenkins | Groovy
-* Agile | Jira | Confluence | KPI management
-* Scripting | API Testing | Postman | Newman
-* QA Automation | Selenium | Robot Framework
-* Audio Signal Processing (DSP)
-* Post Processing and Audio Editing
-* Korean | English fluent
+* Methodologies: Agile (Scrum/Kanban), SDLC Oversight, Release Orchestration
+* Operations: Incident Management (SLA/SVP), Risk Assessment, KPI Tracking
+* Collaboration: Jira, Confluence, Cross-functional Leadership, Stakeholder Relations
+* Globalization: Bilingual Technical Bridge (English/Korean), Cross-Border Project Coordination, Documentation Translation
+* Cloud Platforms: Azure (Certified), AWS (Certified), Google Cloud Platform (GCP)
+* Orchestration: Kubernetes (AKS/EKS), Containerization (Docker), Microservices
+* Automation: Infrastructure-as-Code (Terraform, Pulumi), CI/CD (GitHub Actions, Jenkins)
+* Reliability: SRE Principles, Observability (CloudWatch, Sumo Logic), Scalability
+* Quality Governance: QA Strategy, Automation Frameworks (Selenium, Robot Framework)
+* API & Testing: Postman, Newman, RESTful API Validation, JMeter
+* Domain Expertise: Audio Signal Processing (DSP), Hardware/Software Integration
 
 
 # Professional Experience
@@ -31,60 +30,62 @@ As an experienced Enterprise Technical Support Engineer, SRE, Release Manager, a
 #### > Microsoft
 ##### Sr. Technical Support Engineer
 03/2024 - present
-+ As a key member of the Rapid Response team, I manage high-profile incidents, resolving complex Kubernetes and container-related issues on Azure while maintaining strict SLA compliance.
-+ Translating support requests and documentations to ensure the fluid communication between Microsoft and customers in South Korea.
-+ Collaboration with cross-functional teams to review, investigate and solve the Azure customer technical issues.
++ Orchestrate end-to-end incident management for high-priority enterprise cloud accounts, driving the resolution of complex Kubernetes and container-related issues on Azure under mission-critical SLAs.
++ Act as a Technical Bridge and Cross-Functional Coordinator between South Korean enterprise customers and global engineering teams, translating complex technical requirements into actionable project roadmaps and documentation.
++ Lead cross-functional investigation workstreams involving product engineering and customer success teams to identify root causes and implement long-term preventative strategies for Azure cloud environments.
++ Manage stakeholder expectations and technical communications during high-pressure outages, ensuring alignment between customer business objectives and Microsoft’s technical delivery.
   
 ---
 
 #### > Center ID (Acquired by American Express)
 ##### Site Reliability Engineer | Release Manager
 01/2020- 11/2023 
-+ Coordinated comprehensive release management, including daily triage, rapid incident response, critical hotfix deployment, and strategic risk mitigation in collaboration with key stakeholders.
-+ Managed the CI/CD process to support an Agile SDLC, reducing deployment time and increasing uptime.
-+ Managed AWS resources for a product utilizing microservices, overseeing deliveries, alerts, and monitoring.
-+ Standardized the development and deployment environments by managing containers.
-+ Initiated Infrastructure-as-Code using Pulumi.
++ Directed the end-to-end Release Management lifecycle, orchestrating daily triages, hotfix deployments, and strategic risk mitigation efforts in alignment with executive stakeholders.
++ Optimized the Agile SDLC by re-engineering CI/CD pipelines, resulting in significantly reduced deployment lead times and enhanced system uptime for microservices architecture.
++ Strategized and executed cloud infrastructure initiatives on AWS, overseeing delivery roadmaps, resource allocation, and proactive monitoring to ensure high availability.
++ Standardized organizational deployment standards by implementing containerization strategies, ensuring environment parity across development and production workstreams.
++ Spearheaded the transition to Infrastructure-as-Code (IaC) using Pulumi, improving operational efficiency and project scalability through automated provisioning.
   
 ---
 
 #### > Center ID (Acquired by American Express)
 ##### QA Lead
 12/2016 - 12/2019 
-+ Established and defined QA processes and strategies for a fintech SaaS within a full-stack, agile-driven development cycle.
-+ Developed manual and automated test suites for a React-based web application using Robot Framework and Selenium.
-+ Built and managed manual and automated testing for iOS and Android mobile applications.
-+ Automated RESTful API endpoints tests using Postman and JMeter.
-+ Utilized Sumo Logic and CloudWatch to search through logs using complex queries.
++ Designed and implemented the organizational QA strategy for a Fintech SaaS platform, integrating quality gates into a full-stack, Agile-driven development lifecycle.
++ Governed the end-to-end testing program for web and mobile (iOS/Android) applications, overseeing the transition from manual testing to scalable automated frameworks.
++ Directed API quality initiatives by developing automated validation suites for RESTful endpoints, ensuring data integrity and system reliability across microservices.
++ Leveraged data-driven observability using Sumo Logic and CloudWatch to analyze logs and system performance, providing actionable insights for engineering and product stakeholders.
++ Collaborated with Product Managers and Engineers to define acceptance criteria and manage project risks, ensuring defect-free deployments for high-compliance financial software.
 
 ---
 
 #### > Cyanogen, Inc
 ##### Audio Test Engineer 
 04/2015 ~ 07/2016 
-+ Established and managed testing documentation for manual testers overseas.
-+ Established an Audio QA process for Cyanogen OS, focusing on the functionality of in-house and third-party applications, and created both manual and automated testing processes.
-+ Participated in audio hardware testing; signal interference, noise and test per hardware revision.
-+ DSP audio quality test through ACDB on core apps such as Dialer, Skype integration, Google Music and etc.
++ Coordinated global testing workstreams by establishing and managing comprehensive technical documentation for offshore testing teams, ensuring high-quality execution across time zones.
++ Architected the end-to-end Audio QA framework for Cyanogen OS, defining validation processes for both native and third-party applications to ensure seamless ecosystem integration.
++ Managed quality benchmarks for hardware-software integration, conducting signal interference and noise analysis across multiple hardware revisions to meet market-ready standards.
++ Led specialized DSP quality assessments for core communication and media applications (Dialer, Skype, Google Music), ensuring audio processing met strict performance requirements.
 
 ---
 
 #### > Samsung Electronics America
 ##### Audio Test Lead | Test Lead
 01/2013 ~ 05/2015
-+ Audio Test Lead for various AT&T and T-Mobile Samsung devices to achieve market-ready audio quality - Samsung Galaxy S5 (T-Mobile), Samsung Galaxy Light (T-Mobile), Samsung S4 Zoom (AT&T), Samsung Rugby 4 (AT&T), Samsung S3 Mini (AT&T) and more.
-+ Test Lead for Samsung Galaxy S6 Edge for T-Mobile. Focused QA on baseband such as VoLTE, LTE, 3G, 2G SRVCC and handovers, GPS, RF Performance and Audio.
++ Orchestrated the end-to-end quality lifecycle for flagship Samsung devices (Galaxy S5, S6 Edge, S4 Zoom), ensuring all audio and telecommunication features met market-ready standards for major carriers (AT&T, T-Mobile).
++ Led cross-functional certification workstreams for mobile baseband technologies, including VoLTE, LTE, and SRVCC handovers, ensuring seamless network performance and regulatory compliance.
++ Managed technical delivery and release milestones for multiple concurrent hardware projects, coordinating between engineering teams and carrier partners to meet strict launch deadlines.
++ Directed comprehensive performance testing across RF, GPS, and Audio domains, identifying and mitigating technical risks prior to mass-market production.
 
 ---
 
 #### > En Masse Entertainment
 ##### Bilingual QA / Audio QA
 12/2011 ~ 08/2012
-+ Credited for AAA MMORPG title, TERA Online
-+ Software, service and hardware compatibility QA for pre/post release of products.
-+ Documents and bugs translation, to ensure the fluid communication between US and Korea using JIRA.
-+ Audio QA.
-+ Composed logo audio for En Masse Entertainment.
++ Facilitated international project synchronization for the AAA MMORPG title TERA Online, serving as the primary technical liaison between US and South Korean development teams.
++ Managed localized release readiness by overseeing software, service, and hardware compatibility workstreams for both pre- and post-launch product phases.
++ Streamlined cross-border communication by translating technical documentation and managing bug tracking workflows in JIRA, ensuring alignment on project priorities between global stakeholders.
++ Oversaw Audio Quality Assurance and creative asset delivery, including the composition of the company’s brand audio logo.
 
 ---
 
