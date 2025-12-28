@@ -91,14 +91,14 @@ Technical leader with over 10 years of experience across the software developmen
 
 #### > Google (contract)
 ##### Visual Data Specialist
-2011.01 ~ 2011.11
+01/2011 ~ 11/2011
 + Working as a team to optimize tools and processes, analyze data for errors, and make quick, analytical decisions based on existing policies and procedures for Google Maps.
 
 ---
 
 #### > VMC Game Labs (contract)
 ##### Bilingual QA in Functional QA
-2008.08 ~ 2009.09
+08/2008 ~ 09/2009
 + Functional QA in Xbox360 Software Certification lab
 + Bilingual QA in English and Korean
 
