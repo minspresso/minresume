@@ -8,7 +8,7 @@ codenism@gmail.com
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-Technical leader with over 10 years of experience across the software development lifecycle, specializing in Release Management, SRE, and QA Leadership. I have a proven track record of orchestrating complex technical workflows, from managing global product launches at Samsung to resolving high-profile enterprise cloud incidents at Microsoft. By combining deep technical expertise in Azure/AWS with a focus on stakeholder communication and risk mitigation, I bridge the gap between engineering execution and business goals. I am now seeking to leverage my background in operational excellence and cross-functional coordination into a Technical Project Management role within the cloud space.
+Technical leader with over 10 years of experience across the software development lifecycle, specializing in Release Management, SRE, and QA Leadership. I have a proven track record of orchestrating complex technical workflows, from managing global product launches at Samsung to resolving high-profile enterprise cloud incidents at Microsoft. By combining deep technical expertise in Azure/AWS with a focus on stakeholder communication and risk mitigation, I bridge the gap between engineering execution and business goals. I am now seeking to leverage my background in operational excellence and cross-functional coordination into a Technical Program Management role within the cloud space.
 
 # Areas of Expertise
 
