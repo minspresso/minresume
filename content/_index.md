@@ -105,8 +105,9 @@ Technical leader with over 10 years of experience across the software developmen
 
 # Certification
 
-+ AWS Certified Cloud Practitioner - 90b63dd7c8eb42d19d9eb54e349ac620
-+ Microsoft Certified: Azure Fundamentals - 14CE0L-B4F369
++ Microsoft Certified: Azure AI Fundamentals - May 1, 2025 - C25B0C-3C40AC
++ Microsoft Certified: Azure Fundamentals - February 5, 2024 - 14CE0L-B4F369
++ AWS Certified Cloud Practitioner - January 22, 2024 - 90b63dd7c8eb42d19d9eb54e349ac620
 + CompTIA A+ - COMP10523975
 
 
