@@ -82,10 +82,10 @@ Technical leader with over 10 years of experience across the software developmen
 #### > En Masse Entertainment
 ##### Bilingual QA / Audio QA
 12/2011 ~ 08/2012
-+ Facilitated international project synchronization for the AAA MMORPG title TERA Online, serving as the primary technical liaison between US and South Korean development teams.
-+ Managed localized release readiness by overseeing software, service, and hardware compatibility workstreams for both pre- and post-launch product phases.
-+ Streamlined cross-border communication by translating technical documentation and managing bug tracking workflows in JIRA, ensuring alignment on project priorities between global stakeholders.
-+ Oversaw Audio Quality Assurance and creative asset delivery, including the composition of the company’s brand audio logo.
++ Facilitated international synchronization for the AAA title TERA Online, serving as the technical link between US and South Korean engineering teams.
++ Managed localized release readiness by overseeing compatibility workstreams for both pre- and post-launch software phases.
++ Streamlined cross-border workflows by managing JIRA bug tracking and technical documentation to align project priorities across global stakeholders.
++ Directed Audio QA and creative asset delivery, including the composition of the official brand audio logo.
 
 ---
 
