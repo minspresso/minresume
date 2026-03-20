@@ -44,7 +44,7 @@ Technical leader with over 10 years of experience across the software developmen
 + Optimized the Agile SDLC by re-engineering CI/CD pipelines, resulting in significantly reduced deployment lead times and enhanced system uptime for microservices architecture.
 + Strategized and executed cloud infrastructure initiatives on AWS, overseeing delivery roadmaps, resource allocation, and proactive monitoring to ensure high availability.
 + Standardized organizational deployment standards by implementing containerization strategies, ensuring environment parity across development and production workstreams.
-+ Spearheaded the transition to Infrastructure-as-Code (IaC) using Pulumi, improving operational efficiency and project scalability through automated provisioning.
++ Led the migration to Infrastructure-as-Code (IaC) using Pulumi, improving operational efficiency and project scalability through automated provisioning.
   
 ---
 
