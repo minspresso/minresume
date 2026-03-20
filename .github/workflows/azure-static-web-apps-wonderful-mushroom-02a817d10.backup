@@ -20,10 +20,11 @@ jobs:
           submodules: true
           lfs: false
       - name: Install Hugo
-        run: |
-          wget -q https://github.com/gohugoio/hugo/releases/download/v0.146.7/hugo_extended_0.146.7_linux-amd64.deb
-          sudo dpkg -i hugo_extended_0.146.7_linux-amd64.deb
-      - name: Build Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.146.7'
+          extended: true
+      - name: Build Hugo site
         run: hugo --minify
       - name: Build And Deploy
         id: builddeploy
@@ -32,9 +33,9 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WONDERFUL_MUSHROOM_02A817D10 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"
+          app_location: "public"
           api_location: "api"
-          output_location: "public"
+          output_location: ""
           skip_app_build: true
 
   close_pull_request_job:
