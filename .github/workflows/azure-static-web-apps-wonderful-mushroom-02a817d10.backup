@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     
-    # Official Microsoft Oryx image with the necessary library fixes
+    # Official Microsoft Oryx image with necessary library fixes
     container:
       image: mcr.microsoft.com/oryx/build:github-actions-debian-bullseye-20260122.1
 
@@ -36,9 +36,9 @@ jobs:
           app_location: "/" 
           api_location: "api" 
           output_location: "public" 
+          # The official override: inject the version directly into the build command
+          app_build_command: "export HUGO_VERSION=0.146.7 && hugo --minify"
           ###### End of Repository/Build Configurations ######
-        env:
-          HUGO_VERSION: 0.146.7
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

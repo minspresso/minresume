@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     
-    # Using the specific Microsoft Oryx image to ensure library compatibility
+    # Official Microsoft Oryx image for 2026
     container:
       image: mcr.microsoft.com/oryx/build:github-actions-debian-bullseye-20260122.1
     
@@ -35,8 +35,8 @@ jobs:
           app_location: "/" 
           api_location: "" 
           output_location: "public"
-        env:
-          HUGO_VERSION: 0.146.7
+          # FORCE THE VERSION: This is the official override method
+          app_build_command: "export HUGO_VERSION=0.146.7 && hugo --minify"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
