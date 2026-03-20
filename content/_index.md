@@ -8,21 +8,17 @@ codenism@gmail.com
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-Technical leader with over 10 years of experience across the software development lifecycle, specializing in Release Management, SRE, and QA Leadership. I have a proven track record of orchestrating complex technical workflows, from managing global product launches at Samsung to resolving high-profile enterprise cloud incidents at Microsoft. By combining deep technical expertise in Azure/AWS with a focus on stakeholder communication and risk mitigation, I bridge the gap between engineering execution and business goals. I am now seeking to leverage my background in operational excellence and cross-functional coordination into a Technical Program Management role within the cloud space.
+Technical Leader with over 14 years of experience across Release Management, Site Reliability Engineering, and Quality Assurance. Expert in orchestrating complex cloud workflows for major organizations including Microsoft, Samsung, and Center ID (acquired by American Express). Proven track record in risk mitigation and stakeholder alignment. Currently pivoting into a Technical Program Management role within the cloud ecosystem.
 
 # Areas of Expertise
 
-* Methodologies: Agile (Scrum/Kanban), SDLC Oversight, Release Orchestration
-* Operations: Incident Management (SLA/SVP), Risk Assessment, KPI Tracking
-* Collaboration: Jira, Confluence, Cross-functional Leadership, Stakeholder Relations
-* Globalization: Bilingual Technical Bridge (English/Korean), Cross-Border Project Coordination, Documentation Translation
-* Cloud Platforms: Azure (Certified), AWS (Certified), Google Cloud Platform (GCP)
-* Orchestration: Kubernetes (AKS/EKS), Containerization (Docker), Microservices
-* Automation: Infrastructure-as-Code (Terraform, Pulumi), CI/CD (GitHub Actions, Jenkins)
-* Reliability: SRE Principles, Observability (CloudWatch, Sumo Logic), Scalability
-* Quality Governance: QA Strategy, Automation Frameworks (Selenium, Robot Framework)
-* API & Testing: Postman, Newman, RESTful API Validation, JMeter
-* Domain Expertise: Audio Signal Processing (DSP), Hardware/Software Integration
+* Project Management: Agile (Scrum/Kanban), SDLC, Release Orchestration, Stakeholder Relations
+* Cloud & Infra: Azure (Certified), AWS (Certified), GCP, Kubernetes (AKS/EKS), Docker
+* Reliability & Ops: SRE, Incident Management (SLA), KPI Tracking, Risk Assessment
+* DevOps/Automation: CI/CD (GitHub Actions, Jenkins), IaC (Terraform, Pulumi)
+* Globalization: Bilingual Technical Bridge (English/Korean), Cross-Border Coordination
+* Quality & API: QA Strategy, Automation (Selenium), API Validation (Postman), JMeter
+* Observability: CloudWatch, Sumo Logic, Scalability, Hardware/Software Integration
 
 
 # Professional Experience
