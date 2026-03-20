@@ -12,30 +12,33 @@ on:
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     name: Build and Deploy Job
+    
+    # Using the specific Microsoft Oryx image to ensure library compatibility
     container:
       image: mcr.microsoft.com/oryx/build:github-actions-debian-bullseye-20260122.1
+    
+    # Pinning the Hugo version at the job level so Oryx honors it
     env:
-      HUGO_VERSION: 0.124.1
+      HUGO_VERSION: 0.146.7
+
     steps:
       - uses: actions/checkout@v3
         with:
           submodules: true
           lfs: false
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_MANGO_WAVE_09FB0F41E }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "public" # Built app content directory - optional
-          ###### End of Repository/Build Configurations ######
+          app_location: "/" 
+          api_location: "" 
+          output_location: "public"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
