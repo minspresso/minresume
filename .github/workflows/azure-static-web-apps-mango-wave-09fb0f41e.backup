@@ -19,10 +19,6 @@ jobs:
     container:
       image: mcr.microsoft.com/oryx/build:github-actions-debian-bullseye-20260122.1
     
-    # Pinning the Hugo version at the job level so Oryx honors it
-    env:
-      HUGO_VERSION: 0.146.7
-
     steps:
       - uses: actions/checkout@v3
         with:
@@ -39,6 +35,8 @@ jobs:
           app_location: "/" 
           api_location: "" 
           output_location: "public"
+        env:
+          HUGO_VERSION: 0.146.7
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
