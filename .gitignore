@@ -1,1 +1,25 @@
 agents.md
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Generated resume PDF (local output — commit manually when ready to publish)
+content/kevinsohn_resume_generated.pdf
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local secrets / env
+.env
+.env.*
+secrets.json
