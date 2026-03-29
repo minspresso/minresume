@@ -23,3 +23,7 @@ Thumbs.db
 .env
 .env.*
 secrets.json
+
+# Claude Code internals
+.claude/
+.tmpdeps/
