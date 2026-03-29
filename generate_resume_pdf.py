@@ -32,11 +32,7 @@ SCRIPT_DIR = Path(__file__).parent
 CONTENT_FILE = SCRIPT_DIR / "content" / "_index.md"
 DEFAULT_OUTPUT = SCRIPT_DIR / "content" / "kevinsohn_resume_generated.pdf"
 
-RESUME_NAME = "Kevin (Min) Sohn"
-FOOTER_TEXT = (
-    "Powered by Hugo on Azure | Automated with GitHub Actions "
-    "| Multi-Region Traffic Management"
-)
+RESUME_NAME = "Kevin Sohn"
 
 MAX_PAGES = 2
 FONT_SIZE_MAX = 11.5   # pt — try here first
@@ -140,7 +136,6 @@ def build_html(
     h4_pt     = font_size * 1.00   # company names
     h5_pt     = font_size * 1.00   # job titles
     email_pt  = font_size * 0.95
-    footer_pt = font_size * 0.78
 
     email_href = f"mailto:{email}" if not email.startswith("mailto:") else email
 
@@ -164,6 +159,10 @@ def build_html(
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    hyphens: none;
+    -webkit-hyphens: none;
+    word-break: keep-all;
+    overflow-wrap: normal;
 }}
 
 body {{ background: white; }}
@@ -238,13 +237,6 @@ hr {{
     margin: 2.5pt 0;
 }}
 
-/* ---- Footer ---- */
-.resume-footer {{
-    text-align: center;
-    margin-top: 6pt;
-    font-size: {footer_pt:.4f}pt;
-    color: #555555;
-}}
 </style>
 </head>
 <body>
@@ -262,7 +254,6 @@ hr {{
 {rest_html}
 </div>
 
-<div class="resume-footer">{FOOTER_TEXT}</div>
 
 </body>
 </html>"""
@@ -324,6 +315,35 @@ def count_pdf_pages(pdf_path: Path) -> int:
     return len(PdfReader(str(pdf_path)).pages)
 
 
+def set_initial_zoom(pdf_path: Path, zoom: float = 1.0) -> None:
+    """Embed an /OpenAction into the PDF so it opens at a fixed zoom level.
+
+    Chrome headless leaves the initial view undefined, letting each viewer
+    pick its own default (usually 'fit-to-window'), which makes the page
+    appear smaller than a PDF that was saved with an explicit 100% zoom.
+    This post-processing step locks the viewer to `zoom` (1.0 = 100%).
+    """
+    from pypdf import PdfWriter
+    from pypdf.generic import ArrayObject, NameObject, NullObject, NumberObject
+
+    reader = PdfReader(str(pdf_path))
+    writer = PdfWriter()
+    writer.clone_reader_document_root(reader)
+
+    # /XYZ [left top zoom] — null for left/top means "keep current position"
+    open_action = ArrayObject([
+        writer.pages[0],          # destination page
+        NameObject("/XYZ"),
+        NullObject(),             # left  — unchanged
+        NullObject(),             # top   — unchanged
+        NumberObject(zoom),       # zoom  — 1.0 = 100%
+    ])
+    writer._root_object[NameObject("/OpenAction")] = open_action
+
+    with open(str(pdf_path), "wb") as f:
+        writer.write(f)
+
+
 # ---------------------------------------------------------------------------
 # Auto-scaling
 # ---------------------------------------------------------------------------
@@ -381,6 +401,7 @@ def generate_pdf(
     html = build_html(email, summary_html, rest_html, best_size)
     html_to_pdf(html, output_path)
     final_pages = count_pdf_pages(output_path)
+    set_initial_zoom(output_path, zoom=1.0)   # open at 100% like the reference
 
     if verbose:
         print(f"\nDone: {final_pages} page(s) at {best_size:.4f}pt → {output_path}")
