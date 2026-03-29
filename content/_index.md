@@ -15,6 +15,7 @@ Technical Leader with over 14 years of experience across Release Management, Sit
 * Project Management: Agile (Scrum/Kanban), SDLC, Release Orchestration, Stakeholder Relations
 * Cloud & Infra: Azure (Certified), AWS (Certified), GCP, Kubernetes (AKS/EKS), Docker
 * Reliability & Ops: SRE, Incident Management (SLA), KPI Tracking, Risk Assessment
+* AI-Assisted Development: LLM Orchestration, Prompt Engineering, Agentic Workflows, AI-Driven Code Generation, and Rapid Prototyping
 * DevOps/Automation: CI/CD (GitHub Actions, Jenkins), IaC (Terraform, Pulumi)
 * Globalization: Bilingual Technical Bridge (English/Korean), Cross-Border Coordination
 * Quality & API: QA Strategy, Automation (Selenium), API Validation (Postman), JMeter
@@ -26,6 +27,7 @@ Technical Leader with over 14 years of experience across Release Management, Sit
 #### > Microsoft
 ##### Sr. Technical Support Engineer
 03/2024 - present
++ Initiated and led the development of internal efficiency tools, utilizing AI-driven prototypes to automate case grooming and achieve incremental productivity gains.
 + Orchestrate end-to-end incident management for high-priority enterprise cloud accounts, driving the resolution of complex Kubernetes and container-related issues on Azure under mission-critical SLAs.
 + Act as a Technical Bridge and Cross-Functional Coordinator between South Korean enterprise customers and global engineering teams, translating complex technical requirements into actionable project roadmaps and documentation.
 + Lead cross-functional investigation workstreams involving product engineering and customer success teams to identify root causes and implement long-term preventative strategies for Azure cloud environments.
