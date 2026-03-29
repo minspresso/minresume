@@ -315,42 +315,20 @@ def count_pdf_pages(pdf_path: Path) -> int:
     return len(PdfReader(str(pdf_path)).pages)
 
 
-# Target page dimensions: match the reference PDF (A3 paper, 841.9 × 1191.1 pt).
-# The reference was generated at A3 size, so at 100% zoom in any browser it
-# appears 37% larger than a standard US-Letter PDF.  We scale our Letter output
-# up to A3 so both files look identical at 100%.
-TARGET_WIDTH_PT  = 841.9
-TARGET_HEIGHT_PT = 1191.1
+def set_initial_zoom(pdf_path: Path, zoom: float = 1.0) -> None:
+    """Embed /OpenAction so the PDF opens at a fixed zoom level.
 
-
-def scale_and_set_zoom(pdf_path: Path, zoom: float = 1.0) -> None:
-    """Scale every page to TARGET dimensions and embed a fixed initial zoom.
-
-    Why two operations in one pass:
-      1. Scale  — Chrome generates at US Letter (612 × 792 pt); the reference
-                  PDF is A3 (841.9 × 1191.1 pt).  Uniform scaling to A3 width
-                  (×1.376) makes content appear the same size at 100% zoom.
-                  Height is scaled by a slightly different ratio (×1.504) to
-                  reach true A3, which is a ~9 % vertical stretch — barely
-                  perceptible in a monospace resume font.
-      2. Zoom   — Bakes /OpenAction so the viewer opens at exactly `zoom`
-                  instead of its own default ('fit-to-window').
+    Chrome headless leaves the initial view undefined, so viewers fall back
+    to their own default (usually 'fit-to-window').  This bakes in an explicit
+    zoom so the file always opens at `zoom` (1.0 = 100% / actual size).
     """
     from pypdf import PdfWriter
     from pypdf.generic import ArrayObject, NameObject, NullObject, NumberObject
 
     reader = PdfReader(str(pdf_path))
     writer = PdfWriter()
+    writer.clone_reader_document_root(reader)
 
-    for page in reader.pages:
-        orig_w = float(page.mediabox.width)
-        orig_h = float(page.mediabox.height)
-        sx = TARGET_WIDTH_PT  / orig_w
-        sy = TARGET_HEIGHT_PT / orig_h
-        page.scale(sx, sy)
-        writer.add_page(page)
-
-    # /OpenAction: open at page 1, same position, explicit zoom
     open_action = ArrayObject([
         writer.pages[0],
         NameObject("/XYZ"),
@@ -421,7 +399,7 @@ def generate_pdf(
     html = build_html(email, summary_html, rest_html, best_size)
     html_to_pdf(html, output_path)
     final_pages = count_pdf_pages(output_path)
-    scale_and_set_zoom(output_path, zoom=1.0)  # match A3 size + open at 100%
+    set_initial_zoom(output_path, zoom=1.0)    # open at 100% (actual size)
 
     if verbose:
         print(f"\nDone: {final_pages} page(s) at {best_size:.4f}pt → {output_path}")
