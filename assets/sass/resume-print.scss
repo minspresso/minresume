@@ -1,0 +1,71 @@
+@import "variables";
+
+body.resume-print-page {
+    background: #f7f4ed;
+    margin: 0;
+}
+
+.resume-print-shell {
+    background: #ffffff;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+    margin: 32px auto;
+    max-width: 900px;
+    padding: 28px 36px 36px;
+}
+
+.resume-print-header {
+    border-bottom: 2px solid #222222;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+}
+
+.resume-print-header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.resume-print-subtitle {
+    color: #555555;
+    margin: 8px 0 0;
+}
+
+.resume-print-content .avatar,
+.resume-print-content .avatar > img {
+    display: none !important;
+}
+
+.resume-print-content hr:first-of-type {
+    display: none;
+}
+
+.resume-print-content h1:first-of-type {
+    margin-top: 0;
+}
+
+@media print {
+    @page {
+        margin: 0.5in;
+        size: letter;
+    }
+
+    body.resume-print-page {
+        background: #ffffff;
+    }
+
+    .resume-print-shell {
+        box-shadow: none;
+        margin: 0;
+        max-width: none;
+        padding: 0;
+    }
+
+    .resume-print-subtitle {
+        display: none;
+    }
+
+    a,
+    a:visited {
+        color: #222222 !important;
+        text-decoration: none !important;
+    }
+}
