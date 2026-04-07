@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "term"]
     weight = 2
   [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/minspresso/portfolio"
+    url = "https://github.com/minspresso?tab=repositories"
     weight = 3
   [[menu.main]]
     name = "Contact"
